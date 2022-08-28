@@ -1,0 +1,95 @@
+body{
+    background-color: darkgray;
+    width: 100%;
+
+}
+.container{
+    background-color: rgb(255, 0, 119);
+    width: 90%;
+    margin: auto;
+    padding: 5%;
+}
+.form img{
+    width: 150px;
+    margin-top: 5%;
+}
+.form{
+    text-align: center;
+    background-color: rgba(28, 134, 13, 0.342);
+    width: 50%;
+    margin: auto;
+    border-radius: 5%;
+    border: 2px solid pink;
+    border-bottom: 0;
+}
+input, label{
+    width: 40%;
+    margin: auto;
+    padding: 2%;
+    border-radius: 15px;
+}
+.email{
+    width: 90%;
+    margin: 2%;
+}
+input{
+    padding: 2%;
+    border: 3px solid pink;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: transparent;
+    text-align: center;
+}
+input:hover{
+    background-color:  rgb(255, 0, 119);
+    transition: ease-in-out 0.8s;
+}
+input:focus{
+    background-color: gray;
+}
+.gender{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    padding: 1%;
+}
+select{
+    width: 15%;
+    padding: 1%;
+    border: 2px solid aqua;
+    border-radius: 15px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+select:hover{
+    background-color: rgb(255, 0, 119);
+    transition: ease-in-out 0.8s;
+}
+select:focus{
+    background-color: gray;
+}
+.praivacy input{
+    width: 2%;
+    float: left;
+    margin-left: 25%;
+}
+.praivacy p{
+    margin-right: 25%;
+}
+button{
+    width: 30%;
+    padding: 2%;
+    background-color: rgb(255, 0, 119);
+    border-bottom: 0;
+    border: 2px solid rgb(255, 0, 119);
+    border-radius: 2px;
+    color: white;
+}
+button:hover{
+    background-color: gray;
+}
+::placeholder{
+    color: white;
+}

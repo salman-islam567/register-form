@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>register</title>
+</head>
+<body>
+  <div class="container">
+    <div class="form">
+      <img src="icon-1.png" alt="admin-image">
+      <h1>Sing Up</h1>
+      <form>
+        <label for="name">
+          <input 
+          type="text"
+          name="name"
+          placeholder="type your name" />
+        </label>
+        <label for="surname">
+          <input 
+          type="text"
+          name="surname"
+          placeholder="type your surname" />
+        </label>
+        <label for="email">
+          <input 
+          type="email"
+          name="email"
+          placeholder="exmple@email.com" class="email" />
+        </label>
+        <label for="new password">
+          <input 
+          type="password"
+          name="new password"
+          placeholder="new password" />
+        </label>
+        <label for="password">
+          <input 
+          type="password"
+          name="password"
+          placeholder="confirm password" />
+        </label>
+
+        <div class="birth">
+          <h3>
+            Date of birth?
+          </h3>
+          <select name="day">
+            <option value="day">day</option>
+            <option value="5">5</option>
+          </select>
+          <select name="month">
+            <option value="month">month</option>
+            <option value="january">january</option>
+          </select>
+          <select name="years">
+            <option value="years">years</option>
+            <option value="2002">2002</option>
+          </select>
+        </div>
+          <h3>Gender?</h3>
+        <div class="gender">
+          <input type="radio" id="male" name="gender" value="male">male
+          <input type="radio" id="female" name="gender" value="female">female
+          <input type="radio" id="costom" name="gender" value="costom">costom
+        </div>
+        <div class="praivacy">
+          <input type="checkbox" required>
+          <p>i accept the terms of us & praivacy policy</p>
+        </div>
+        <button>submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
